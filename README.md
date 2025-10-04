@@ -1,4 +1,12 @@
-# Storage Price Scraper
+
+<div align="center" style="margin-bottom:30px;">
+  <img width="500" alt="UNITS price scrapping using python" src="https://github.com/user-attachments/assets/e5c02d4e-e3fe-40d7-9bcd-a9b7ac940878" />
+</div>
+<br><br> <!-- add more <br> if you need more space -->
+
+
+# UNITS Storage Price Scraper
+
 
 A Python web scraper for collecting storage unit pricing data from unitsstorage.com.
 
@@ -20,12 +28,13 @@ A Python web scraper for collecting storage unit pricing data from unitsstorage.
 ## Usage
 
 1. Prepare a CSV file with zip codes (`us_zip_codes_5000.csv`)
-2. Run: `python scraper.py`
+2. Run: `python UNITS_storage_price_scraper.py`
 
 ## Configuration
 
 Modify the `StoragePriceScraper` initialization parameters for different MongoDB configurations.
 
-## License
 
-MIT
+## 📬 Contact
+**Developer:** Taha Hamedani  
+**Email:** taha.hamedani8@gmail.com  
