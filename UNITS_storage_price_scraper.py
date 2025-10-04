@@ -284,7 +284,7 @@ class StoragePriceScraper:
                 "timestamp": time.time()
             }
 
-    def _make_request(self, id_zip_code: str, zip_code: str, retry_count: int = 3) -> Optional[Dict]:
+    def _make_request(self, id_zip_code: str, zip_code: str, retry_count: int = 2) -> Optional[Dict]:
         """
         Make a single request with retry logic and error handling.
         
@@ -319,8 +319,8 @@ class StoragePriceScraper:
                     "timeout": 30
                 }
 
-                if proxy:
-                    session_kwargs["proxies"] = proxy
+                # if proxy:
+                #     session_kwargs["proxies"] = proxy
 
                 response = self.session.post(url, **session_kwargs)
 
